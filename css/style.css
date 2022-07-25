@@ -8,31 +8,16 @@
     width: 10%;
 }
 
-.carousel-caption .caption-wrapper{
-    width: 80%;
-}
 
-.card .card-body p, li{
-    color: #848199;
-}
 
-.plan:hover{
-    background-color: blue;
-}
-.plan:hover .card-body{
-    color: white;
-}
-.btn-wrapper button{
-    width: 90%;
-}
 @media only screen and (max-width:576px) {
     .carousel-item img{
-        height: 50vh;
+        height: 80vh;
         object-fit: cover;
     }
-
-    .carousel-caption .caption-wrapper{
-        
-        width: 100%;
+    .carousel-caption{
+        left: -15%;
+        right: -15%;
     }
+
 }
