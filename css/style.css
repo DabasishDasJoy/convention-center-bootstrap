@@ -1,3 +1,7 @@
+/* <-- =================================Font Family========================================= --> */
+
+/* <!-- =================================Font Family========================================= --> */
+
 .carousel-item {
     transition: transform 1s ease;
 }
@@ -22,35 +26,42 @@
     background-color: rgba(63, 135, 245, 1);
 }
 
-.card-body h2{
+.card-body h2 {
     color: rgba(10, 8, 38, 1);
 }
-.card-body p, .card-bopdy ul{
+
+.card-body p,
+.card-bopdy ul {
     color: rgba(132, 129, 153, 1);
 }
-.card-btn-primary{
+
+.card-btn-primary {
     background-color: #F496D1;
     color: rgba(63, 135, 245, 1);
 }
-.card:hover .card-items{
+
+.card:hover .card-items {
     color: white;
 }
-.card:hover .btn{
+
+.card:hover .btn {
     background-color: white;
 }
-.card:hover{
+
+.card:hover {
     position: relative;
     top: -10%;
     background-color: rgba(63, 135, 245, 1);
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
 }
-.badge-hot{
+
+.badge-hot {
     left: 90%;
 }
 
-footer{
-   background-color:  #0B0D17;
-  
+footer {
+    background-color: #0B0D17;
+
 }
 
 @media only screen and (max-width:576px) {
