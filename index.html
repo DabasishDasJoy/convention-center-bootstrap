@@ -117,6 +117,26 @@
     ================================================================ -->
   </header>
   <main class="container">
+    <!-- ===============================================================
+                      ******** Toast Start *********
+    ================================================================ -->
+    <div class="toast-container top-50 end-0 p-3 position-fixed d-inline">
+      <div class="toast align-items-center show" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body border-start border-5 border-primary d-flex align-items-center">
+            <img src="icons/Vector.svg" alt="">
+            <h6 class="d-inline my-0 mx-3">20% off on the next booking</h5>
+          </div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+    <!-- ===============================================================
+                      ******** Toast End *********
+    ================================================================ -->
+    <!-- ===============================================================
+                      ******** About Us Start *********
+    ================================================================ -->
     <section id="about-us" class="my-5">
       <div class="row row-cols-md-2">
         <div class="d-md-flex d-none d-lg-flex justify-content-end">
@@ -133,6 +153,12 @@
         </div>
       </div>
     </section>
+    <!-- ===============================================================
+                      ******** About Us End *********
+    ================================================================ -->
+    <!-- ===============================================================
+                      ******** Our Package Start *********
+    ================================================================ -->
     <section>
       <h1 class="text-center convention-heading-primary">Our Package</h1>
       <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 my-5">
@@ -214,6 +240,12 @@
         </div>
       </div>
     </section>
+    <!-- ===============================================================
+                      ******** Our Package End *********
+    ================================================================ -->
+    <!-- ===============================================================
+                      ******** Happy Client Start *********
+    ================================================================ -->
     <section>
       <h1 class="text-center convention-heading-primary">Our Happy Client Says</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-5">
@@ -258,6 +290,12 @@
         </div>
       </div>
     </section>
+    <!-- ===============================================================
+                      ******** Happy Client End *********
+    ================================================================ -->
+    <!-- ===============================================================
+                      ******** FAQ Start *********
+    ================================================================ -->
     <section>
       <h1 class="text-center convention-heading-primary">Frequently Ask Questions</h1>
       <div class="row row-cols-1 row-cols-md-2 g-4 my-5 justify-content-center align-items-center">
@@ -331,20 +369,40 @@
         </div>
       </div>
     </section>
+    <!-- ===============================================================
+                      ******** FAQ End *********
+    ================================================================ -->
   </main>
-
+  <!-- ===============================================================
+                      ******** Script Start *********
+    ================================================================ -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+
+  <!-- ===============================================================
+                      ******** Script End *********
+    ================================================================ -->
 </body>
 <footer>
-  <div class="row row-cols-md-2 row-cols-1 p-5">
+  <div class="row row-cols-md-2 row-cols-1 p-5 flex-row-reverse">
+    <div class="col d-flex justify-content-md-end align-items-center justify-content-center">
+      <div class="img-wrapper w-25">
+        <h4 class="text-center text-white">Get The APP</h4>
+        <a href=""><img class="img-fluid" src="images/Download-on-the-App-Store-button.png" alt=""></a>
+        <a href=""><img class="img-fluid" src="images/playstore.png" alt=""></a>
+      </div>
+    </div>
     <div class="col d-flex justify-content-md-start align-items-center justify-content-center">
       <p class="text-muted">© 2020 bike. All rights reserved</p>
     </div>
-    <div class="col d-flex justify-content-md-start align-items-center justify-content-center">
-      <img src="images/person 1.png" alt="">
-    </div>
+    
   </div>
 </footer>
 
